@@ -10,6 +10,8 @@
     <property name="build.ui.mode" value="wm"/>
     <property name="app.pwa.enabled" value="false"/>
 
+
+    
     <condition property="wmBuild" value="true">
         <equals arg1="${build.ui.mode}" arg2="wm" casesensitive="false" trim="true"/>
     </condition>
